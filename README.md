@@ -35,7 +35,7 @@ void loop() {
   Serial.print(temp);
   Serial.println("°C");
 
-  // Calcula el ángulo en función de una función, para simular la vorticidad
+  // Calcula el ángulo en función de tiempo y temperatura, para simular la vorticidad
   // Este valor cambiará el ángulo del servo entre 0 y 180 grados
 
   float tiempo = millis() / 1000.0;          // Devuelve el tiempo transcurrido en milisegundos desde que la placa comenzó a ejecutar el programa
