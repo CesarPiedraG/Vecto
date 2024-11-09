@@ -57,5 +57,5 @@ void loop() {
   Serial.print("Vorticidad: ");
   Serial.println(vorticidad);
 
-  delay(100);  // Pequeño retraso para suavizar el movimiento del servo
+  delay(100); 
 }
